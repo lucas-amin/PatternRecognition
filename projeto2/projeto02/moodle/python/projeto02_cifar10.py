@@ -135,6 +135,7 @@ classifiers = [
     DecisionTreeClassifier(),
     GaussianNB()]
 
+
 for clf in classifiers:
     clf.fit(X_train, y_train)
     name = clf.__class__.__name__
